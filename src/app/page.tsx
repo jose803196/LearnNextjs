@@ -1,38 +1,14 @@
-import ContentCard from '../components/ContentCard';
+import React from 'react';
+import Navbar from '@/app/ui/components/Navbar';
 
-const HomePage = () => {
-  const contentData = [
-    {
-      title: 'Article 1',
-      imageUrl: '/article1-image.jpg',
-      content: 'This is the content of article 1.',
-      link: '/article1',
-    },
-    {
-      title: 'Article 2',
-      imageUrl: '/article2-image.jpg',
-      content: 'This is the content of article 2.',
-      link: '/article2',
-    },
-    // Agrega más tarjetas de contenido según sea necesario
-  ];
-
+const Index = () => {
   return (
     <div>
-      <h1>Welcome to the Home Page</h1>
-      <div className="content-cards-container">
-        {contentData.map((item, index) => (
-          <ContentCard
-            key={index}
-            title={item.title}
-            imageUrl={item.imageUrl}
-            content={item.content}
-            link={item.link}
-          />
-        ))}
-      </div>
+      <Navbar />
+      <h1>¡Bienvenido a tu sitio web!</h1>
+      <p>Este es un ejemplo de cómo crear una barra de navegación con Tailwind CSS y Next.js.</p>
     </div>
   );
 };
 
-export default HomePage;
+export default Index;
