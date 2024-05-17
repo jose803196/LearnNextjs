@@ -6,7 +6,7 @@ const Index = () => {
     <div>
       <Navbar />
       <h1>CASERITAS</h1>
-      <p>Este es un ejemplo de cómo crear una barra de navegación con Tailwind CSS y Next.js.</p>
+      <p>Hola.</p>
     </div>
   );
 };
