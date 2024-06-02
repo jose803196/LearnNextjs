@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className="hidden sm:flex sm:items-center sm:space-x-6">
             <a href="/" className="text-gray-900 hover:text-gray-700 transition-colors duration-150 ease-in-out">Home</a>
             <a href="/somos" className="text-gray-900 hover:text-gray-700 transition-colors duration-150 ease-in-out">Somos</a>
-            <a href="/productos" className="text-gray-900 hover:text-gray-700 transition-colors duration-150 ease-in-out">Productos</a>
+            <a href="/servicios" className="text-gray-900 hover:text-gray-700 transition-colors duration-150 ease-in-out">Servicios</a>
             <a href="/contactos" className="text-gray-900 hover:text-gray-700 transition-colors duration-150 ease-in-out">Contactos</a>
           </div>
         </div>

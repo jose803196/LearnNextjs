@@ -1,0 +1,25 @@
+/* LaTeXStyles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  line-height: 2.0;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  :hover {
+    background-color: #e8e8e8;
+  }
+}
