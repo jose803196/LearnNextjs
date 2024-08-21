@@ -14,11 +14,11 @@ const Index = () => {
       </Head>
       <Navbar />
       <main className="max-w-5xl mx-auto p-6">
-        <h1 className="text-4xl font-semibold leading-tight">Bienvenido a tu Sitio Web</h1>
-        <p className="text-lg mt-4">Ofrecemos servicios de creación de documentos LaTeX de alta calidad.</p>
+        <h1 className="text-4xl font-semibold leading-tight">Welcome to your Website</h1>
+        <p className="text-lg mt-4">We offer high-quality LaTeX document creation services.</p>
         <div className="mt-8">
           <Link href="/servicios">
-            <button>Ver nuestros servicios</button>
+            <button>See our services</button>
           </Link>
         </div>
       </main>
