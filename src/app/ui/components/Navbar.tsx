@@ -15,9 +15,9 @@ const Navbar: React.FC = () => {
         <h1 className="text-white text-2xl font-bold">LaTeX Services</h1>  
         <div className="hidden md:flex space-x-4">  
           <Link href="/" className="text-white hover:bg-blue-700 px-3 py-2 rounded transition">Home</Link>  
-          <Link href="/servicios" className="text-white hover:bg-blue-700 px-3 py-2 rounded transition">Servicios</Link>  
+          <Link href="/servicios" className="text-white hover:bg-blue-700 px-3 py-2 rounded transition">Services</Link>  
           <Link href="/blog" className="text-white hover:bg-blue-700 px-3 py-2 rounded transition">Blog</Link>  
-          <Link href="/contacto" className="text-white hover:bg-blue-700 px-3 py-2 rounded transition">Contacto</Link>  
+          <Link href="/contactos" className="text-white hover:bg-blue-700 px-3 py-2 rounded transition">Contact</Link>  
         </div>  
         <button className="md:hidden text-black" onClick={toggleMenu}>  
           ☰  
@@ -26,9 +26,9 @@ const Navbar: React.FC = () => {
       {isOpen && (  
         <div className="md:hidden bg-blue-700 mt-2 rounded">  
           <Link href="/" className="block text-white hover:bg-blue-600 px-3 py-2 rounded transition">Home</Link>  
-          <Link href="/servicios" className="block text-white hover:bg-blue-600 px-3 py-2 rounded transition">Servicios</Link>  
+          <Link href="/servicios" className="block text-white hover:bg-blue-600 px-3 py-2 rounded transition">Services</Link>  
           <Link href="/blog" className="block text-white hover:bg-blue-600 px-3 py-2 rounded transition">Blog</Link>  
-          <Link href="/contacto" className="block text-white hover:bg-blue-600 px-3 py-2 rounded transition">Contacto</Link>  
+          <Link href="/contactos" className="block text-white hover:bg-blue-600 px-3 py-2 rounded transition">Contact</Link>  
         </div>  
       )}  
     </nav>  
