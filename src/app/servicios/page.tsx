@@ -1,14 +1,14 @@
-import React from 'react';
-import Navbar from '@/app/ui/components/Navbar';
+import React from 'react'; 
+import Pricing from '@/app/ui/components/Pricing'; // Ajusta la ruta si es necesario  
 
-const Index = () => {
-  return (
-    <div>
-      <Navbar />
-      <h1>Services</h1>
-      <p>This is an example of how to create a navigation bar with Tailwind CSS and Next.js.</p>
-    </div>
-  );
-};
+const Index = () => {  
+  return (  
+    <div>  
+      <h1 className="text-3xl text-center my-5">Servicios en LaTeX</h1>  
+      <p className="text-center mb-5">Ofrecemos diversas soluciones para tus necesidades en LaTeX.</p>  
+      <Pricing />  
+    </div>  
+  );  
+};  
 
 export default Index;
