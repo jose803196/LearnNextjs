@@ -6,34 +6,34 @@ import Link from 'next/link';
 const Pricing = () => {  
   const pricingOptions = [  
     {  
-      service: 'Desarrollo de Figuras Complejas',  
-      estimatedTime: '3-5 días',  
-      description: 'Creación de figuras y gráficos personalizados en LaTeX.',  
-      details: 'Incluye diagramas, gráficos y otros tipos de representaciones visuales.'  
+      service: 'Development of Complex Figures',  
+      estimatedTime: '3-5 days',  
+      description: 'Creation of custom figures and graphics in LaTeX.',  
+      details: 'It includes diagrams, graphs, and other types of visual representations.'  
     },  
     {  
-      service: 'Transcripción de Textos',  
-      estimatedTime: '1-2 días',  
-      description: 'Transcribir documentos y textos a formato LaTeX.',  
-      details: 'Precisión en la conversión de documentos complejos en diferentes formatos.'  
+      service: 'Text Transcription',  
+      estimatedTime: '1-2 days',  
+      description: 'Transcribe documents and texts to LaTeX format.',  
+      details: 'Accuracy in converting complex documents into different formats.'  
     },  
     {  
-      service: 'Desarrollo de Informes o Reportes',  
-      estimatedTime: '5-7 días',  
-      description: 'Creación de informes profesionales en LaTeX.',  
-      details: 'Incluye plantillas personalizadas y bibliografía.'  
+      service: 'Development of Reports or Reports',  
+      estimatedTime: '5-7 days',  
+      description: 'Creation of professional reports in LaTeX.',  
+      details: 'Includes custom templates and bibliography.'  
     },  
     {  
-      service: 'Desarrollo de Plantillas',  
-      estimatedTime: '2-4 días',  
-      description: 'Diseño de plantillas personalizadas en LaTeX.',  
-      details: 'Para informes, presentaciones y más, adaptadas a tus necesidades.'  
+      service: 'Template Development',  
+      estimatedTime: '2-4 days',  
+      description: 'Design of custom templates in LaTeX.',  
+      details: 'For reports, presentations and more, tailored to your needs.'  
     }  
   ];  
 
   return (  
     <div className="flex flex-col items-center justify-center p-5">  
-      <h2 className="text-2xl font-bold mb-5">Nuestros Servicios en LaTeX</h2>  
+      <h2 className="text-2xl font-bold mb-5">Our Services in LaTeX</h2>  
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">  
         {pricingOptions.map((option, index) => (  
           <motion.div  
@@ -47,7 +47,7 @@ const Pricing = () => {
             <p className="text-gray-500">{option.details}</p>  
             <Link href="/contactos" passHref>  
               <button className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">  
-                Más Información  
+                More Information  
               </button>  
             </Link>  
           </motion.div>  
